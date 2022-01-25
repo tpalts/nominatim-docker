@@ -52,6 +52,7 @@ RUN true \
         python3-psutil \
         python3-jinja2 \
         python3-icu git \
+        python3-datrie \
         python3-argparse-manpage \
         # Misc.
         git \
