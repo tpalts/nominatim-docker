@@ -31,7 +31,7 @@ RUN true \
         libboost-system-dev \
         libboost-filesystem-dev \
         # PostgreSQL.
-        postgresql-contrib \
+        postgresql-contrib-12 \
         postgresql-server-dev-12 \
         postgresql-12-postgis-3 \
         postgresql-12-postgis-3-scripts \
@@ -55,6 +55,7 @@ RUN true \
         python3-datrie \
         python3-argparse-manpage \
         # Misc.
+        libicu-dev \
         git \
         curl \
         sudo
